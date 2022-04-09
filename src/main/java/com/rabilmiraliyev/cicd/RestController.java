@@ -7,6 +7,7 @@ public class RestController {
     @GetMapping("/")
     public String welcome(){
         return "Welcome";
+
 //        echo "# ci-cd" >> README.md
 //        git init
 //        git add README.md
@@ -14,5 +15,6 @@ public class RestController {
 //        git branch -M main
 //        git remote add origin https://github.com/miraliyevrabil/ci-cd.git
 //        git push -u origin main
+
     }
 }
